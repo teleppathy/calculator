@@ -2,11 +2,7 @@
 
 int Calculator::Add (double a, double b)
 {
-<<<<<<< HEAD
-    return a + b;
-=======
 	return a + b + 0.5;
->>>>>>> 4ad40a3 (fix truncation error)
 }
 
 int Calculator::Sub (double a, double b)
@@ -18,8 +14,6 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
-<<<<<<< HEAD
-=======
 
 int Calculator::Div (double a, double b)
 {
@@ -29,4 +23,5 @@ int Calculator::Div (double a, double b)
     }
     return a/b;
 }
->>>>>>> 98c1e73 (Add a division operation)
+
+

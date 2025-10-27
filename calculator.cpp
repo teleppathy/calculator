@@ -22,7 +22,7 @@ int Calculator::Mul (double a, double b)
 int Calculator::Div (double a, double b)
 {
     if (b == 0) {
-        cout << "Error: division by zero!" << endl;
+        cout << "Error: division by zero" << endl;
         return 0;return
     }
     return a/b;

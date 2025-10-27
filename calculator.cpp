@@ -18,3 +18,15 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+<<<<<<< HEAD
+=======
+
+int Calculator::Div (double a, double b)
+{
+    if (b == 0) {
+        cout << "Error: division by zero" << endl;
+        return 0;return
+    }
+    return a/b;
+}
+>>>>>>> 98c1e73 (Add a division operation)
